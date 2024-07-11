@@ -1,0 +1,20 @@
+{
+  "name": "pixi-v8-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rsbuild dev -o",
+    "build": "rsbuild build"
+  },
+  "keywords": [],
+  "author": "Mu-Tsun Tsai <don.m.t.tsai@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rsbuild/core": "1.0.0-alpha.7",
+    "@types/node": "^20.14.10"
+  },
+  "dependencies": {
+    "pixi.js": "^8.2.3"
+  }
+}
