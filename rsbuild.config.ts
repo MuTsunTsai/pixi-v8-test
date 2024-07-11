@@ -8,6 +8,7 @@ export default defineConfig({
     },
 	output: {
 		cleanDistPath: isProduction,
+        assetPrefix: "/pixi-v8-test/",
         polyfill: "off",
         distPath: {
 			root: "docs",
